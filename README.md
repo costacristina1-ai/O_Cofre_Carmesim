@@ -50,13 +50,7 @@ Dentro da pasta do projeto:
 
 ```bash
 npm install
-npx expo install --fix
-```
 
-Se o Expo solicitar versões compatíveis das dependências, use:
-
-```bash
-npx expo install expo-audio expo-haptics @react-native-async-storage/async-storage
 ```
 
 ## Como iniciar
@@ -65,7 +59,11 @@ npx expo install expo-audio expo-haptics @react-native-async-storage/async-stora
 npx expo start
 ```
 
-Depois, leia o QR Code pelo Expo Go.
+Depois, leia o QR Code pelo Expo Go. ou Digite:
+
+```bash
+npm run android
+```
 
 ## Estrutura
 
