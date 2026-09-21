@@ -36,6 +36,6 @@ const styles = StyleSheet.create({
   },
   textoItem: {
     fontFamily: 'open-sans',
-    color: Cores.textDark,
+    color: Cores.cream,
   },
 });
