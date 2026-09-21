@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "O Cofre Carmesim",
+    "slug": "o-cofre-carmesim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.ifsp.ocofrecarmesim"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
