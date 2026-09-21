@@ -41,24 +41,31 @@ O modo Difícil é o padrão e mantém a faixa principal de 1 a 99 do projeto.
 
 ## Como instalar
 
-No Terminal, dentro da pasta do projeto:
+Pré-requisitos:
+
+- Node.js 20.19+.
+- Expo Go no celular.
+
+Dentro da pasta do projeto:
 
 ```bash
 npm install
+npx expo install --fix
+```
 
+Se o Expo solicitar versões compatíveis das dependências, use:
+
+```bash
+npx expo install expo-audio expo-haptics @react-native-async-storage/async-storage
 ```
 
 ## Como iniciar
 
 ```bash
-npm start
+npx expo start
 ```
 
-Depois, leia o QR Code pelo Expo Go. ou Digite:
-
-```bash
-npm run android
-```
+Depois, leia o QR Code pelo Expo Go.
 
 ## Estrutura
 
@@ -101,6 +108,3 @@ o-cofre-carmesim/
 6. Ao abrir o cofre, veja as estrelas, o número de tentativas e o recorde.
 7. Toque em **Novo código** para jogar novamente.
 
-## Antes de entregar
-
-Depois de rodar o jogo no Expo Go, tire um screenshot de uma das telas funcionando e coloque-o neste README, pois o enunciado exige um print do projeto rodando.
