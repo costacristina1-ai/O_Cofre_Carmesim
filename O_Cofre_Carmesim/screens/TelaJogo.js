@@ -119,10 +119,10 @@ function TelaJogo({ numeroUsuario, chaveDificuldade, aoEncerrarJogo, aoReiniciar
         <FlatList
           data={tentativas}
           renderItem={(dadosItem) => (
-            <ItemHistoricoPalpite
-              numeroRodada={quantidadeTentativas - dadosItem.indice}
-              palpite={dadosItem.item}
-            />
+          <ItemHistoricoPalpite
+            numeroRodada={quantidadeTentativas - dadosItem.index}
+            palpite={dadosItem.item}
+          />
           )}
           keyExtractor={(item, indice) => `${item}-${indice}`}
         />
