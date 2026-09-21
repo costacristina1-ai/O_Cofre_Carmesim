@@ -41,11 +41,6 @@ O modo Difícil é o padrão e mantém a faixa principal de 1 a 99 do projeto.
 
 ## Como instalar
 
-Pré-requisitos:
-
-- Node.js 20.19+.
-- Expo Go no celular.
-
 Dentro da pasta do projeto:
 
 ```bash
@@ -56,7 +51,7 @@ npm install
 ## Como iniciar
 
 ```bash
-npx expo start
+npm start
 ```
 
 Depois, leia o QR Code pelo Expo Go. ou Digite:
