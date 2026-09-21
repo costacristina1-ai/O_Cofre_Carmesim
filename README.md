@@ -41,7 +41,7 @@ O modo Difícil é o padrão e mantém a faixa principal de 1 a 99 do projeto.
 
 ## Como instalar
 
-Dentro da pasta do projeto:
+No Terminal, dentro da pasta do projeto:
 
 ```bash
 npm install
