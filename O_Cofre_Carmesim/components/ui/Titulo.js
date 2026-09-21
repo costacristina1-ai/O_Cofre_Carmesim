@@ -9,7 +9,7 @@ function Titulo({ children }) {
 export default Titulo;
 
 const styles = StyleSheet.create({
-  title: {
+  titulo: {
     fontFamily: 'open-sans-bold',
     fontSize: 25,
     color: Cores.cream,
